@@ -1,0 +1,24 @@
+# 本地环境与密钥
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# 系统与编辑器临时文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.vs/
+
+# 本地文档转换中间结果
+/work/markitdown/
+
+# 选定引擎后补充对应的缓存、构建产物和本地配置规则。
